@@ -1,0 +1,45 @@
+.text-center {
+  margin: 20px
+}
+
+.content {
+  display: flex;
+  margin: 20px 10px;
+}
+
+.color-text {
+  width: 80px;
+  margin: auto;
+}
+
+.btn-primary {
+  margin: 10px
+}
+
+.red-square {
+  width: 58px;
+  height: 38px;
+  background-color: red;
+  margin: 0px 10px
+}
+
+.green-square {
+  width: 58px;
+  height: 38px;
+  background-color: green;
+  margin: 0px 10px
+}
+
+.blue-square {
+  width: 58px;
+  height: 38px;
+  background-color: blue;
+  margin: 0px 10px
+}
+
+.res-square {
+  width: 100px;
+  height: 100px;
+  border: solid 1px #c0c0c0;
+  margin: 17px 0px
+}
