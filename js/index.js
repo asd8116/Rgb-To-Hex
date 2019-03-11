@@ -32,6 +32,8 @@ convToHex.addEventListener('click', (event) => {
   // 判斷條件是否符合
   if (isNaN(r) || isNaN(g) || isNaN(b)) {
     hexInput.value = 'Error: Values for R, G, B should be from 0 to 255 only!';
+    // 不符合變為白色
+    box.style.backgroundColor = `rgb(${255}, ${255}, ${255})`;
   } else {
     // 輸入數字得到結果
     let hexStr = rgbToHex(r, g, b);
